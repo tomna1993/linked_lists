@@ -9,7 +9,7 @@ typedef struct Node {
 } Node;
 
 bool insert_sorted(Node** head, int value);
-bool empty_list(Node** head);
-bool remove_sorted(Node** head, int value);
+void free_list(Node** head);
+bool remove_first(Node** head, int value);
 
 #endif
